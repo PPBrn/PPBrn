@@ -1,6 +1,5 @@
 FROM node:8-alpine
 WORKDIR /var/app
-
 COPY package.json .
 
 RUN yarn
